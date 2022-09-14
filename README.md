@@ -20,3 +20,9 @@ sudo apt install tmux fish
 # https://github.com/jorgebucaran/fisher/blob/main/README.md
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 ```
+
+## Install plguins
+
+```
+fisher update
+```
