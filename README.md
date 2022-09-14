@@ -11,5 +11,5 @@ git clone git@github.com:VV0JC13CH/config-fish.git ~/.config/fish
 ## Install dependencies
 
 ```
-sudo apt install fish
+sudo apt install tmux fish
 ```
