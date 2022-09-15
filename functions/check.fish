@@ -1,11 +1,16 @@
 function check --argument-names 'thing'
     if test -n "$thing"
         if test "$argv" = "sound"
-			speaker-test -t wav -c 6
+			set command speaker-test -t wav -c 6
+			echo $command
+			$command
 		else if test "$argv" = "speedtest"
-						curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -
+			if not test -e /tmp/speedtest_cli/speedtest.py
+				git clone https://github.com/sivel/speedtest-cli.git /tmp/speedtest_cli
+			end
+			python3 /tmp/speedtest_cli/speedtest.py
 		else
-			echo "Nothing to-do"
+			echo 404. No such thing as $argv! 
 		end
 
     else
