@@ -1,5 +1,5 @@
 # Ignore standard fzf functions
 functions/_fzf*
 functions/fzf*
-conf.d/fzf.fish
-completions/fzf_configure_bindings.fishunctions/fzf*
+conf.d/fzf*
+completions/fzf_*
