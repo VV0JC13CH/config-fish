@@ -1,3 +1,3 @@
 function www
-   x-www-browser $argv
+   xdg-open $argv > /dev/null 2>&1 
 end
