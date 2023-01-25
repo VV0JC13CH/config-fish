@@ -13,8 +13,6 @@ function h --argument-names 'path'
 			cd ~/Pictures
 		else if test "$argv" = "vid"
 			cd ~/Videos
-		else if test "$argv" = "conf"
-			cd ~/.config
 		else
 			cd ~/$argv 
 		end
