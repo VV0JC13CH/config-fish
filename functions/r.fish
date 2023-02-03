@@ -1,4 +1,4 @@
 # Wrapper for ranger
 function r
-    ranger
+    ranger $argv
 end
