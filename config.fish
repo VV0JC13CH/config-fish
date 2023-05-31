@@ -1,4 +1,5 @@
 fish_add_path -m ~/.local/bin
+fish_add_path -m ~/go/bin
 zoxide init fish | source
 alias v="vim"
 alias rg="rgrep"
