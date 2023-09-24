@@ -1,5 +1,6 @@
 fish_add_path -m ~/.local/bin
 fish_add_path -m ~/go/bin
+fish_add_path -m /home/linuxbrew/.linuxbrew/bin
 zoxide init fish | source
 alias v="vim"
 alias k="kubectl"
