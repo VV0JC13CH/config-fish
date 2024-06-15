@@ -6,6 +6,7 @@ alias v="vim"
 alias k="kubectl"
 alias rg="rgrep"
 alias lg="lazygit"
+alias leetcode="nvim leetcode.nvim"
 if status is-interactive
     # Commands to run in interactive sessions can go here
     trap _trap_exit_tmux EXIT
