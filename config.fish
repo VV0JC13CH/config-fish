@@ -8,6 +8,7 @@ alias k="kubectl"
 alias rg="rgrep"
 alias lg="lazygit"
 alias leetcode="nvim leetcode.nvim"
+set OLLAMA_MODELS "/home/wojciech/Projects/LLM/ollama_models"
 # Start gnome-keyring as the SSH agent
 if not pgrep -u (id -u) gnome-keyring-daemon >/dev/null
    set (gnome-keyring-daemon --start | string split "=")
