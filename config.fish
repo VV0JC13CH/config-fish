@@ -1,6 +1,7 @@
 fish_add_path -m ~/.local/bin
 fish_add_path -m ~/.golang/go/bin
 fish_add_path -m ~/go/bin
+fish_add_path -m ~/dotnet
 fish_add_path -m /home/linuxbrew/.linuxbrew/bin
 zoxide init fish | source
 alias v="vim"
