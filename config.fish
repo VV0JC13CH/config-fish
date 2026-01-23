@@ -6,9 +6,12 @@ fish_add_path -m ~/go/bin
 fish_add_path -m ~/.dotnet
 fish_add_path -m ~/.dotnet/tools
 set DOTNET_ROOT "~/.dotnet"
+# Python
+set -x PYENV_VIRTUALENV_DISABLE_PROMPT 1 #exclude pyenv from system apps
+status --is-interactive; and pyenv init - | source #enable pyenv in interactive shell
 fish_add_path -m /home/linuxbrew/.linuxbrew/bin
 zoxide init fish | source
-alias v="vim"
+alias v="nvim"
 alias k="kubectl"
 alias rg="rgrep"
 alias lg="lazygit"
