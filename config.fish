@@ -1,4 +1,5 @@
 fish_add_path -m ~/.local/bin
+fish_add_path -m ~/AppImages
 # Go
 fish_add_path -m ~/.golang/go/bin
 fish_add_path -m ~/go/bin
