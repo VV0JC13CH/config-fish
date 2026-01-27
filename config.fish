@@ -13,6 +13,7 @@ status --is-interactive; and pyenv init - | source #enable pyenv in interactive 
 fish_add_path -m /home/linuxbrew/.linuxbrew/bin
 zoxide init fish | source
 alias v="nvim"
+alias vim="nvim"
 alias k="kubectl"
 alias rg="rgrep"
 alias lg="lazygit"
