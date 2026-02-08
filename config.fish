@@ -15,7 +15,6 @@ zoxide init fish | source
 alias v="nvim"
 alias vim="nvim"
 alias k="kubectl"
-alias rg="rgrep"
 alias lg="lazygit"
 alias leetcode="nvim leetcode.nvim"
 set OLLAMA_MODELS "/home/wojciech/Projects/LLM/ollama_models"
