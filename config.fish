@@ -6,7 +6,7 @@ fish_add_path -m ~/go/bin
 # C# .NET
 fish_add_path -m ~/.dotnet
 fish_add_path -m ~/.dotnet/tools
-set DOTNET_ROOT "~/.dotnet"
+set -gx DOTNET_ROOT $HOME/.dotnet
 # Python
 set -x PYENV_VIRTUALENV_DISABLE_PROMPT 1 #exclude pyenv from system apps
 status --is-interactive; and pyenv init - | source #enable pyenv in interactive shell
